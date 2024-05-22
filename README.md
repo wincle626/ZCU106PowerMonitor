@@ -14,3 +14,5 @@ Select corresponding power rail and restart the visulization
 Change the voltage value for a specific power rail or enter a voltage value for it
 ### Frquency Scaling Factor 0.01 ~ 10
 Change the ratio of input clock rate to the FPGA, e.g. if the FPGA is running at 250MHz, factor=0.5 means 125Mhz
+
+## Note that: Due to the fact that ZCU106 and ZCU102 has the same power rail sequence and PS ARM processor, this app can be also used for ZCU102. 
